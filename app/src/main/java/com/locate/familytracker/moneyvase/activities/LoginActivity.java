@@ -76,7 +76,7 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(new Intent(LoginActivity.this,ForgetActivity.class));
     }
     public void goToHomeActivity(){
-        startActivity(new Intent(LoginActivity.this,MainActivity.class));
+        startActivity(new Intent(LoginActivity.this,FragmentContainerActivity.class));
     }
     public void checkLoginInputs(){
         checkInternet();

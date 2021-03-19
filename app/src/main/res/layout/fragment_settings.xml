@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/mainWhiteColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SettingsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/nexa_bold"
+                    android:textColor="@color/mainColorBlack"
+                    android:text="Settings"
+                    android:textSize="@dimen/_15ssp"
+                    />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="@dimen/_50sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp">
+
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nexa_regular"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:textColor="@color/mainColorBlack"
+                    android:text="Invite A Friend &amp; Win "
+                    android:textSize="@dimen/_12ssp"
+                    />
+
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:rotation="180"
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:src="@drawable/left_arrow"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp">
+
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nexa_regular"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:textColor="@color/mainColorBlack"
+                    android:text="PIN"
+                    android:textSize="@dimen/_12ssp"
+                    />
+
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:rotation="180"
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:src="@drawable/left_arrow"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp">
+
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nexa_regular"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:textColor="@color/mainColorBlack"
+                    android:text="Theme"
+                    android:textSize="@dimen/_12ssp"
+                    />
+
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:rotation="180"
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:src="@drawable/left_arrow"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp">
+
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nexa_regular"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:textColor="@color/mainColorBlack"
+                    android:text="Feedback"
+                    android:textSize="@dimen/_12ssp"
+                    />
+
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:rotation="180"
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:src="@drawable/left_arrow"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp">
+
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nexa_regular"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:textColor="@color/mainColorBlack"
+                    android:text="Delete Account"
+                    android:textSize="@dimen/_12ssp"
+                    />
+
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:rotation="180"
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:src="@drawable/left_arrow"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp">
+
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nexa_regular"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:textColor="@color/mainColorBlack"
+                    android:text="Terms &amp; Conditions"
+                    android:textSize="@dimen/_12ssp"
+                    />
+
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:rotation="180"
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:src="@drawable/left_arrow"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp">
+
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nexa_regular"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:textColor="@color/mainColorBlack"
+                    android:text="Privacy Policy"
+                    android:textSize="@dimen/_12ssp"
+                    />
+
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:rotation="180"
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:src="@drawable/left_arrow"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp">
+
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nexa_regular"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:textColor="@color/mainColorBlack"
+                    android:text="Logout"
+                    android:textSize="@dimen/_12ssp"
+                    />
+
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:src="@drawable/logout"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nexa_regular"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/mainColorBlackFull"
+                android:layout_gravity="center_horizontal"
+                android:text="Last login : 2 March 2021"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
