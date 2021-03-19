@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">moneyvase</string>
+    <string name="signup">
+
+        <u>Sign up here</u>
+
+    </string>
+
+    <string name="login">
+
+        <u>Log in instead</u>
+
+    </string>
+
+
+    <string name="agreement">
+
+        <u>User Agreement</u>
+
+    </string>
+
+
+    <string name="privacy">
+
+        <u>Privacy Policy.</u>
+
+    </string>
+
+    <string name="click">
+
+        <u>Click here</u>
+
+    </string>
+
+
+
+    <string name="notiData">
+        Get alerts and get notified about all your transactions. Get reminded of the upcoming expenses.
+    </string>
+</resources>

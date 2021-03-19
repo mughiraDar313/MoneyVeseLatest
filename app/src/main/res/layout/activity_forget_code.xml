@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/mainWhiteColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ForgetCodeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:layout_height="0dp">
+
+            <RelativeLayout
+                android:id="@+id/relTop"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp">
+
+
+                <ImageView
+                    android:id="@+id/imgBack"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/left_arrow"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/nexa_bold"
+                    android:textColor="@color/mainColorBlack"
+                    android:text="Forget Password"
+                    android:textSize="@dimen/_15ssp"
+                    />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_below="@+id/relTop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/nexa_bold"
+                android:textColor="@color/mainColorBlack"
+                android:text="Enter Password Reset Code"
+                android:textSize="@dimen/_15ssp"
+                android:layout_marginTop="@dimen/_20sdp"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="4"
+            android:layout_height="0dp">
+
+            <RelativeLayout
+                android:id="@+id/relEmail"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp">
+
+
+                <TextView
+                    android:id="@+id/hintEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nexa_regular"
+                    android:textColor="@color/mainColorBlackFull"
+                    android:text="Enter Code"
+                    android:textSize="@dimen/_10ssp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:id="@+id/editResetCode"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:inputType="textEmailAddress"
+                    android:layout_below="@+id/hintEmail"
+                    android:layout_above="@+id/borderEmail"
+                    android:textColor="@color/colorBlack"
+                    android:fontFamily="@font/nexa_bold"
+                    android:textSize="@dimen/_12ssp"
+                    />
+
+
+                <View
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:id="@+id/borderEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorBorder"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:layout_height="0dp">
+
+
+            <RelativeLayout
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:background="@drawable/curved_background_filled"
+                android:layout_height="@dimen/_40sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/nexa_bold"
+                    android:textColor="@color/mainWhiteColor"
+                    android:text="SUBMIT"
+                    android:textSize="@dimen/_12ssp"
+                    />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

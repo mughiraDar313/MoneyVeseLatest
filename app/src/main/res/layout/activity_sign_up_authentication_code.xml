@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/mainWhiteColor"
+    android:layout_height="match_parent"
+    tools:context=".activities.SignUpAuthenticationCodeActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relSignupTop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp">
+
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/left_arrow"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/nexa_bold"
+            android:textColor="@color/mainColorBlack"
+            android:text="Set Up Account"
+            android:textSize="@dimen/_15ssp"
+            />
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_below="@+id/relSignupTop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/nexa_bold"
+            android:textColor="@color/mainColorBlack"
+            android:text="Please Enter Authentication Code"
+            android:textSize="@dimen/_15ssp"
+            android:id="@+id/txtTop1"
+            />
+
+
+        <RelativeLayout
+            android:layout_below="@+id/txtTop1"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_90sdp"
+            android:id="@+id/relUserName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp">
+
+
+            <TextView
+                android:id="@+id/hintUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nexa_regular"
+                android:textColor="@color/mainColorBlackFull"
+                android:text="Enter Code Below"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <EditText
+                android:id="@+id/editCode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:inputType="numberDecimal"
+                android:layout_below="@+id/hintUsername"
+                android:layout_above="@+id/borderUsername"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="@font/nexa_bold"
+                android:textSize="@dimen/_12ssp"
+                />
+
+
+            <View
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/borderUsername"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorBorder"
+                />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_below="@+id/relUserName"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nexa_regular"
+                android:textColor="@color/mainColorBlack"
+                android:text="Didn't receive one? "
+                android:textSize="@dimen/_8ssp"
+                />
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_toRightOf="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nexa_regular"
+                android:textColor="@color/mainGreenColor"
+                android:text="@string/click"
+                android:textSize="@dimen/_8ssp"
+                />
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="7"
+            android:layout_height="0dp">
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:layout_height="0dp">
+
+
+            <RelativeLayout
+                android:id="@+id/confirmButton"
+                android:layout_width="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:background="@drawable/curved_background_filled"
+                android:layout_height="@dimen/_40sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/nexa_bold"
+                    android:textColor="@color/mainWhiteColor"
+                    android:text="CONFIRM"
+                    android:textSize="@dimen/_12ssp"
+                    />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
